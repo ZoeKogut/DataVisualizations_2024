@@ -1,5 +1,6 @@
 # DataVisualizations_2024
-Repository of classwork for CS439\n
+Repository of classwork for CS439
+
 **Any data (except for the final project) was compiled and cleaned by Xavier Tricoche**
 
 # Project 1
