@@ -11,4 +11,7 @@ This project has its own Readme detailing some of the issues I came accross whil
 Project 4 deals with desplaying data through different datastructures such as trees (regular and radial) and tree maps.
 
 p4_NodeLink should look something like this.
+- Red means that the node is expanded and has children (Internal node)
+- Green means the node is collapsed and has children
+- Blue means the node has no children (Leaf)
 ![image](https://github.com/user-attachments/assets/cd676673-aaf7-4205-95b0-ba604b39f234)
