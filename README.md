@@ -1,7 +1,7 @@
 # DataVisualizations_2024
 Repository of classwork for CS439
 
-**Any data (except for the final project) was compiled and cleaned by Xavier Tricoche**
+<ins>**Any data (except for the final project) was compiled and cleaned by Xavier Tricoche**</ins>
 
 # Project 1
 This was the beginning project and my first step into making and designing graphs. 
