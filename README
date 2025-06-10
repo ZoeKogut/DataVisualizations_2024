@@ -1,0 +1,47 @@
+Command to run: python [file name].py -i flare.json
+
+__Pt1 and Pt2__
+-Spacing between nodes was an issue, as I had discussed with the professor over Piazza.
+    Since the spacing between siblings and the depth of the tree is exponential, it
+    didn't matter how far I spaced them apart- the ratio between the two stayed the same.
+    If you zoom into the nodes you will see that the color is correct and the nodes do not
+    lie on top of one another when close enough.
+
+__Pt2 Specifically__
+-Labeling the nodes was difficult and I did the best I could. The lettering might be small
+    and kind of hard to read, but that was the only way to get it to fit and not overlap 
+    other nodes as poorly. They are centered in the ax.annotation, so upon zooming in they might
+    not be entirely centered with/right next to their node unlike how they are positioned in PT1.
+
+__Pt4 EC__
+-Tried my hand at it, not as good as it could be, but to be honest I only did it to make up for
+    some of the points that I might lose in the previous sections for spacing of the nodes.
+    I just alternated vertical and horizontal stacking to get the nesting. I want to say it's
+    "trivial" but I struggled on making the subdivision work for hours so it feels like it is
+    downplaying my work. But it is a pretty trivial solution.
+
+-Because of the translation between graph and data plotting (it goes between 0->1 on both axis)
+    when I input the height and width to both be the actual values of the nodes- the rectangle
+    did some math to normalize the points I gave it, and I didn't know how to undo that in order
+    to figure out which rectangles were large enough to stick a label into. I realized after I had
+    gotten everything else to work that I could change the axis scale to that of root node, so that
+    I could just put the real values of everything inside and didn't have to scale it down- but that
+    broke everything else that I did and I didn't wanna go about fixing everything again- so I just
+    left it the way it was working.
+
+    Also unless there is a way to also figure out the length of a text in comparison to how large 
+    it will be placed on the map, that is also an issue I ran into. (How do I know when to print the
+    text cause it could go out of the box if the name is too long)
+
+**API Addition: --tags**
+    If you want to give partial credit or whatever for labeling stuff, I included an extra tag in the 
+    API (--tags) that will make the tags appear (only in p4_enclosure). I turned off any filtering 
+    for the labels so it should just print the label for every node that doesn't have children (wont 
+    be subdivided) or is at the max depth. (It looks very messy with some of the very close together 
+    nodes- but looks fine for most of the other nodes)
+
+    (I also hardcoded out 2 of the very messy sections, I could hardcode the labels for the entire thing
+    but I only have an hour left and I haven't eaten dinner. Theres around 18 sections of overlapping nodes)
+
+    A way to fix the overlapping would be to just shrink the labels down really small- but then you couldn't
+    read them.
