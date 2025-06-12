@@ -7,7 +7,7 @@ Repository of classwork for CS439
 This was the beginning project and my first step into making and designing graphs. 
 The folders in there work with simple bubble and bar charts, along with a splom graph
 
-**p1_splom**
+### p1_splom
 API: python p1_splom.py -i evs_assignment1.xlsx -a [attributes]
 ie. To run the program comparing both weight and range together, you would run:
   <ins>python p1_splom.py -i evs_assignment1.xlsx -a Weight -a Range</ins>
