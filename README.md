@@ -42,6 +42,32 @@ Now, hovering over nodes gives a tooltip that points to the same node between bo
 
 
 ## Project 3
+A map of the globe with all of the given airports plotted on it. Lines between each airports represent flights  
+IPA: python FILE -m custom.geo.json -a worldwide_airports.xlsx -f flight.json  
+
+### p3_geospatial
+Basic map plotting all the airports and the given flights.  
+![image](https://github.com/user-attachments/assets/1b7eb331-e6b1-4361-8096-d14d789973f2)
+
+### p3_attributes
+The airports are now sized and colored based on how often they are visited and how many airlines visit them, respectivly.  
+![image](https://github.com/user-attachments/assets/af283d3a-7d9d-433c-810e-a4b32aa0f323)
+
+### p3_tooltip
+Hovering over the airport gives you details on that airport.
+![image](https://github.com/user-attachments/assets/de34d35d-ffb4-418d-9a75-a8bea09978aa)
+
+### p3_filtering
+There are sliders at the bottom that you can use to filter out nodes and lines of specific size  
+_This might be a little laggy, as instead of only the top 200 flights, it shows all of them at first._
+![image](https://github.com/user-attachments/assets/64bb75e9-f124-405a-8f49-85c2868cb090)
+
+
+### p3_geodesic
+The lines now take their intended path across the globe, and you can also filter based on the airline you want.  
+_Note: I was given the skeleton code of how to make these lines curved, then worked from there._  
+![image](https://github.com/user-attachments/assets/f6e943c1-2362-455a-a27e-8e496baf71c8)
+
 
 ## Project 4
 This project has its own Readme detailing some of the issues I came accross while doing the project.
