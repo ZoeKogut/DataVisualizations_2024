@@ -22,10 +22,26 @@ Attributes will be listed if you add the **-h** or **--help** tag before **-i**
 
 
 ## Project 2
+A scatterplot graph that shows the correlation between the four chosen attributes.  
+The IPA should be the same for all four  
+IPA: python FILE -i CIA_world_factbook_2023.xlsx  
+
+
+### p2_bubbles
+The start of this projecct, it is just a static scatterplot comparing 4 attributes.
+
+
+### p2_widgets
+First upgrade to the graph, allowing you to change the attributes being compared.
+
+### p2_brushing
+Another graph is added, allowing you to "brush" or highlight specific sections to compare nodes between both graphs.
+
+### p2_tooltip
+Now, hovering over nodes gives a tooltip that points to the same node between both graphs. 
 
 
 ## Project 3
-
 
 ## Project 4
 This project has its own Readme detailing some of the issues I came accross while doing the project.
@@ -34,6 +50,5 @@ Project 4 deals with desplaying data through different datastructures such as tr
 
 p4_NodeLink should look something like this.
 - Red means that the node is expanded and has children (Internal node)
-- Green means the node is collapsed and has children
-- Blue means the node has no children (Leaf)
+- Blue means the node has no children, or is a collapsed node (Leaf)
 ![image](https://github.com/user-attachments/assets/cd676673-aaf7-4205-95b0-ba604b39f234)
