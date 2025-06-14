@@ -1,5 +1,3 @@
-Command to run: python [file name].py -i flare.json
-
 __Nodelink and Radial Layout__
 -Spacing between nodes was an issue, as I had discussed with the professor over Piazza.
     Since the spacing between siblings and the depth of the tree is exponential, it
