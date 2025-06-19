@@ -7,18 +7,26 @@ This was the beginning project and my first step into making and designing graph
 The folders in there work with simple bubble and bar charts, along with a splom graph
 
 ### p1_bars
-API: python p1_bars.py -i evs_assignment1.xlsx
+API: python p1_bars.py -i evs_assignment1.xlsx  
+<img src="https://github.com/user-attachments/assets/f1f4ef6e-f1cf-4c90-8ab4-061f5bb92f06" width="600">
+
+
 
 ### p1_bubbles
 API: python p1_bubbles.py -i evs_assignment1.xlsx  
 There are a handful of attributes that can change the size, x/y-axis, and color of the graph.  
-The possible attributes are: Model, Year, Weight, Top Speed, Range, Acceleration, Efficiency, Price, Country
+The possible attributes are: Model, Year, Weight, Top Speed, Range, Acceleration, Efficiency, Price, Country  
+<img src="https://github.com/user-attachments/assets/e29bb49b-148a-45d9-af2d-06a08aa1b517" width="600">
+
 
 ### p1_splom
 API: python p1_splom.py -i evs_assignment1.xlsx -a attribute  
 ie. To run the program comparing both weight and range together, you would run:  
     <ins>python p1_splom.py -i evs_assignment1.xlsx -a Weight -a Range</ins>  
 Attributes will be listed if you add the **-h** or **--help** tag before **-i**  
+<img src="https://github.com/user-attachments/assets/b63edabd-a7c7-4722-8389-a61fde9a8bd9" width="600">
+
+
 
 
 ## Project 2
@@ -29,16 +37,22 @@ IPA: python FILE -i CIA_world_factbook_2023.xlsx
 
 ### p2_bubbles
 The start of this projecct, it is just a static scatterplot comparing 4 attributes.
+<img src="https://github.com/user-attachments/assets/93e21241-5800-46b0-9b05-b5b48f4a0c38" width="500">
 
 
 ### p2_widgets
 First upgrade to the graph, allowing you to change the attributes being compared.
+<img src="https://github.com/user-attachments/assets/2faeeff2-6ec7-4ebb-868b-6ca71079ab65" width="600">
+
 
 ### p2_brushing
 Another graph is added, allowing you to "brush" or highlight specific sections to compare nodes between both graphs.
+<img src="https://github.com/user-attachments/assets/28c4cd8c-6625-453a-a0a1-bc2b023cbf40" width="600">
+
 
 ### p2_tooltip
 Now, hovering over nodes gives a tooltip that points to the same node between both graphs. 
+<img src="https://github.com/user-attachments/assets/69438b66-2378-4a1a-a98f-acd4cc54c636" width="600">
 
 
 ## Project 3
@@ -95,5 +109,14 @@ Layered tree map.
 Recursive tree map.  
 As noted in the Project4 README, the lables for this are fairly ugly.  
 <img src="https://github.com/user-attachments/assets/8dc8d9e1-359f-4b1a-8e1d-e12418c53f86" width="600">
+
+
+## Final project
+A combination of project 2 and 3.  
+Using a Cloropleth map, I was able to map climate change data compiled by NASA over the map of the US.  
+The hope of this project was to better view the data, and be able to compare two variables against eachother.  
+A tooltip is present on this map, though instead of having the data pop up on both maps, it pops up on only one and has an arrow pointing to the same place on the other map.  
+<img src="https://github.com/user-attachments/assets/7bd3a9b3-71ea-40d9-a201-589de483a868" width="800">
+
 
 
