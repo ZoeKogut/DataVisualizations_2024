@@ -111,11 +111,13 @@ As noted in the Project4 README, the lables for this are fairly ugly.
 <img src="https://github.com/user-attachments/assets/8dc8d9e1-359f-4b1a-8e1d-e12418c53f86" width="600">
 
 
-## Final project
+## Final Project
 A combination of project 2 and 3.  
 Using a Cloropleth map, I was able to map climate change data compiled by NASA over the map of the US.  
 The hope of this project was to better view the data, and be able to compare two variables against eachother.  
 A tooltip is present on this map, though instead of having the data pop up on both maps, it pops up on only one and has an arrow pointing to the same place on the other map.  
+  
+API: python project.py -m us_countiesTrimmed.json -d crv-us-climate.csv  
 <img src="https://github.com/user-attachments/assets/7bd3a9b3-71ea-40d9-a201-589de483a868" width="800">
 
 
