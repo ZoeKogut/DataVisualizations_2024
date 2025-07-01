@@ -13,9 +13,10 @@ API: python p1_bars.py -i evs_assignment1.xlsx
 
 
 ### p1_bubbles
-API: python p1_bubbles.py -i evs_assignment1.xlsx  
+API: python p1_bubbles.py -i evs_assignment1.xlsx (-x -y -s -c)  
 There are a handful of attributes that can change the size, x/y-axis, and color of the graph.  
 The possible attributes are: Model, Year, Weight, Top Speed, Range, Acceleration, Efficiency, Price, Country  
+Include the attributes after one of the potional flags (x/y/s/c) to change the graph  
 <img src="https://github.com/user-attachments/assets/e29bb49b-148a-45d9-af2d-06a08aa1b517" width="600">
 
 
